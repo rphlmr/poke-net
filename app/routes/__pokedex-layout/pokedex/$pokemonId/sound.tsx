@@ -3,7 +3,7 @@ import { useCatch, useParams } from "@remix-run/react";
 export default function SoundsPage() {
   const params = useParams();
 
-  throw new Error("Oh noooooon");
+  // throw new Error("Oh noooooon");
 
   return (
     <audio controls src={`/assets/pokemon/${params?.pokemonId}.mp3`}>
