@@ -5,6 +5,10 @@
 - Initial setup: _If you just pull this project_
 
   ```sh
+  create a .env file and copy .env.example content in it
+  ```
+
+  ```sh
   npm run setup
   ```
 
